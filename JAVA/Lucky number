@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Lucky_number{
+public static void main(String[] args) {
+    Scanner s = new Scanner(System.in);
+    int n = s.nextInt();
+    while(n<1 || n>10){
+        System.out.print( n + " is not number between 1 to 10 . Try again : ");
+        n = s.nextInt();
+    }
+    System.out.println( n + " is number between 1 to 10 ");
+
+      
+   }
+}
